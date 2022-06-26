@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "CryptoApp",
+    "description": "This is a special Crypto Tracker app. Implements fully functioning authentication and you can search and add currencies to get current price and the percent change over last 24 hours",
+    "slug": "CryptoApp",
+    "version": "1.0.0",
+    "githubUrl": "https://github.com/danieljimenez0255/Crypto-Tracker-React-Native-App-",
+    "orientation": "portrait",
+    "icon": "./assets/cryptoTracker-logo.png",
+    "splash": {
+      "image": "./assets/cryptoTracker-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#18A0FB"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/cryptoTracker-logo.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/cryptoTracker-logo.png"
+    }
+  }
+}
